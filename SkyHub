@@ -1,0 +1,232 @@
+debug_metatable = {}
+f = {}
+
+function debug_setmetatable(b, metatable)
+    debug_metatable = metatable
+end
+
+function loadstring(str)
+    -- Your implementation of the loadstring function goes here
+    print("loadstring: " .. str)
+end
+
+function game_GetHttp(url)
+    -- Your implementation of the game_GetHttp function goes here
+    print("game_GetHttp: " .. url)
+    return ""
+end
+
+function debug_getmetatable(b)
+    -- Your implementation of the debug_getmetatable function goes here
+    print("debug_getmetatable")
+    return ""
+end
+
+function setmetatable(b, metatable)
+    debug_setmetatable(b, metatable)
+end
+
+function operator(d)
+    local e = {}
+    local f = 0
+    local g = 0
+
+    e[1] = function(b)
+        if f > 34 then
+            return false
+        end
+        f = f + 1
+        g = (g + 3253 - b) % 79
+        if g % 3 == 1 then
+            if e[b] == nil then
+                g = g + 1
+                e[b] = 26
+            end
+            return true
+        elseif g % 3 == 0 then
+            if e[b] == nil then
+                g = g + 1
+                e[b] = 103
+            end
+            return true
+        elseif g % 3 == 2 then
+            if e[b] == nil then
+                g = g + 1
+                e[b] = 227
+            end
+            return true
+        end
+        return false
+    end
+
+    e[2] = function(b)
+        if f > 32 then
+            return false
+        end
+        f = f + 1
+        g = (g + 1509 - b) % 57
+        if g % 3 == 0 then
+            if e[b] == nil then
+                g = g + 1
+                e[b] = 139
+            end
+            return true
+        elseif g % 3 == 1 then
+            if e[b] == nil then
+                g = g + 1
+                e[b] = 65
+            end
+            return true
+        elseif g % 3 == 2 then
+            if e[b] == nil then
+                g = g + 1
+                e[b] = 153
+            end
+            return true
+        end
+        return false
+    end
+
+    e[3] = function(h)
+        if f > 35 then
+            return false
+        end
+        f = f + 1
+        g = (g + 1756 - h) % 21
+        if g % 3 == 2 then
+            if e[b] == nil then
+                g = g + 1
+                e[b] = 2
+            end
+            return true
+        elseif g % 3 == 0 then
+            if e[b] == nil then
+                g = g + 1
+                e[b] = 108
+            end
+            return true
+        elseif g % 3 == 1 then
+            if e[b] == nil then
+                g = g + 1
+                e[b] = 10
+                b = b .. "/v3/l/" .. b
+            end
+            return true
+        end
+        return false
+    end
+
+    return ""
+end
+
+b = "bf15a15feb3e074f81db01496cbb48e2"
+c = ""
+d = 24915
+e = 0
+
+while e < 966 do
+    e = e + 1
+    while e < 605 and d % 5260 < 2630 do
+        e = e + 1
+        d = (d - 466) % 41090
+        local b = e + d
+        if d % 3504 > 1752 then
+            d = (d - 706) % 30483
+            while e < 313 and d % 7102 < 3551 do
+                e = e + 1
+                d = (d * 411) % 43087
+                local b = e + d
+                if d % 14970 > 7485 then
+                    d = (d * 355) % 41240
+                    local b = 76830
+                    if f[b] == nil then
+                        f[b] = 1
+                        c = c .. ".n"
+                    end
+                elseif d % 2 ~= 0 then
+                    d = (d * 316) % 34377
+                    local b = 51374
+                    if f[b] == nil then
+                        f[b] = 1
+                        c = c .. "Sky Hub"
+                    end
+                else
+                    d = (d * 939) % 2412
+                    e = e + 1
+                    local b = 67052
+                    if f[b] == nil then
+                        f[b] = 1
+                    end
+                end
+            end
+        elseif d % 2 ~= 0 then
+            d = (d + 986) % 9320
+            while e < 597 and d % 3566 < 1783 do
+                e = e + 1
+                d = (d - 950) % 7147
+                local b = e + d
+                if d % 4020 < 2010 then
+                    d = (d + 826) % 6247
+                    local b = 79206
+                    if f[b] == nil then
+                        f[b] = 1
+                        c = c .. "ht"
+                    end
+                elseif d % 2 ~= 0 then
+                    d = (d + 737) % 14175
+                    local b = 51471
+                    if f[b] == nil then
+                        f[b] = 1
+                        c = c .. "tp"
+                    end
+                else
+                    d = (d * 705) % 44808
+                    e = e + 1
+                    local b = 58695
+                    if f[b] == nil then
+                        f[b] = 1
+                        c = c .. "s:"
+                    end
+                end
+            end
+        else
+            d = (d * 80) % 11734
+            e = e + 1
+            while e < 951 and d % 19762 < 9881 do
+                e = e + 1
+                d = (d * 899) % 25086
+                local b = e + d
+                if d % 11548 > 5774 then
+                    d = (d * 412) % 37881
+                    local b = 84492
+                    if f[b] == nil then
+                        f[b] = 1
+                        c = c .. "//"
+                    end
+                elseif d % 2 ~= 0 then
+                    d = (d - 419) % 22808
+                    local b = 94003
+                    if f[b] == nil then
+                        f[b] = 1
+                        c = c .. "ap"
+                    end
+                else
+                    d = (d - 851) % 30011
+                    e = e + 1
+                    local b = 21386
+                    if f[b] == nil then
+                        f[b] = 1
+                        c = c .. "i."
+                    end
+                end
+            end
+        end
+    end
+    d = (d + 751) % 33125
+end
+
+local str = ""
+operator()(str)
+
+local url = c
+loadstring(game_GetHttp(url))
